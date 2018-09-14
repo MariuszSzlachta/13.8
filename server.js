@@ -18,7 +18,6 @@ server.on('request', function (request, response) {
     fs.readFile('./res/err.jpg', 'binary', function (err, data) {
     response.statusCode = 404;
     response.writeHead(200, {'Content-Type':'image/jpg'});
-    // response.write('<body style="background: #fff"></body>')
     response.write(data, 'binary');
     response.end();
     });
