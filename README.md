@@ -1,4 +1,4 @@
-# scorekeeper
+# HTTP server
 
 ## What's this?
 This is basic html Node.js. This exercise was made during Kodilla bootcamp in module aboutNnode.js
